@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="figma.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="" alt="Product Image" id="main-product-image">
+                    <div class="thumbnails-container">
+                        <div class="thumbnails">
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-details">
+                    <div class="head">
+                        <h1 class="product-vendor"></h1>
+                        <h2 class="product-title"></h2>
+                    </div>
+                    <hr color="#d3d3d3" >
+                    <span class="price "></span>
+                    <span class="percentage-off"></span>
+                    <p class="compare-at-price"></p>
+                    
+                    <hr color="#d3d3d3" >
+
+                    <div class="color-container">
+                        <h1 class="color-text">Choose a Color</h1>
+                        <div class="c-container">
+                            
+                        </div>
+                    </div>
+                    
+                    <hr color="#d3d3d3" >
+                    <div class="size-container">
+                      
+                        <h1 class="color-text">Choose the Size</h1>
+                        <div class="size-selector">
+                           
+                        </div>
+                    </div>
+
+                    <div class="product-action">
+                        <span class="qty">
+                          <button class="decrease">-</button>
+                          <input name="qty" type="number" class="counting" value="1" > 
+                          
+                          <button class="increase">+</button>
+                        </span>
+
+                        <span>
+                        <button id="add-to-cart-btn" >Add to Cart</button>
+                        </span>  
+                    </div>
+
+
+                    <div class="product-details-added">
+                        <p id="addedProductDetails"></p>
+                    </div>
+
+                    <div class="message-container">
+                        <p id="add-to-cart-message"></p>
+                    </div>
+                    <hr color="#d3d3d3" >
+                    <div class="description">
+                        <h3>Description</h3>
+                        <p class="product-description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="figma.js"></script>
+</body>
+
+
+</html>
